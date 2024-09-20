@@ -1,0 +1,55 @@
+﻿/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width:100%;
+}
+
+.zx-title-div {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    align-self: center;
+    padding-left: 30%;
+    color: black;
+}
+
+.zx-date-range-picker-div {
+    width: fit-content;
+    font-weight: 700;
+    padding-top: 3px;
+}
+
+.zx-date-range-row-div {
+}
+
+.zx-date-range-picker {
+    width: 160px;
+    cursor: pointer;
+}
+th {
+    background: #162140;
+    color:white;
+    text-align:center;
+}
+td {
+    border: 0.5px solid black;
+    text-align: center;
+}
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .body-content {
+        padding: 0;
+    }
+}
